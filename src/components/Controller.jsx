@@ -1,14 +1,14 @@
 import React from 'react';
 
-function Controller(handleSetcount) {
+function Controller({ handleSetCount }) {
   return (
     <div className="ctrl">
-      <button onClick={() => handleSetcount(-1)}>-1</button>
-      <button onClick={() => handleSetcount(-10)}>-10</button>
-      <button onClick={() => handleSetcount(-100)}>-100</button>
-      <button onClick={() => handleSetcount(100)}>100</button>
-      <button onClick={() => handleSetcount(10)}>10</button>
-      <button onClick={() => handleSetcount(1)}>1</button>
+      <button onClick={() => handleSetCount(-1)}>-1</button>
+      <button onClick={() => handleSetCount(-10)}>-10</button>
+      <button onClick={() => handleSetCount(-100)}>-100</button>
+      <button onClick={() => handleSetCount(100)}>100</button>
+      <button onClick={() => handleSetCount(10)}>10</button>
+      <button onClick={() => handleSetCount(1)}>1</button>
     </div>
   );
 }
